@@ -1,0 +1,9 @@
+def getanswer(ans):
+    if ans == 1:
+        return 'you can go'
+    elif ans == 2:
+        return 'you are rejected'
+    elif ans == 3:
+        return'you have to wait'
+
+ans = print(getanswer(int(input("enter ur number"))))
